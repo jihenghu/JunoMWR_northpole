@@ -3,7 +3,7 @@ Source code for retrieving and data analysis of Jupiter's north polar mean atmos
 `dry_adiab` and `moist_adiab` host the source code to retrieve atmos. profiles under dry and moist adiabatic endmembers respectively. 
 The core file is a MCMC retrieve program sampling the atmos parameters by calling the CANOE model to build the atmosphere and run radiative transfer model.
     - `dry_adiab/redo_emcee_dryadiab_depleteNH3.py`
-    - `moist_adiab`
+    - `moist_adiab/redo_emcee_moistadiab_parallel.py`
 
 `spatial` hosts the code to generate polarmean maps of north pole.
 
